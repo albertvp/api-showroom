@@ -20,7 +20,7 @@ export class AppComponent extends Component {
 
   componentWillUnmount() {
     const events = this.props.Component.events || {};
-    Object.keys(events).forEach(e => emitter.emoveListener(e, events[e]));
+    Object.keys(events).forEach(e => emitter.removeListener(e, events[e]));
   }
 
   render() {
