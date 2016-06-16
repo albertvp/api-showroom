@@ -1,0 +1,34 @@
+.service {
+  margin-top: 10px;
+  color: #26B08F
+}
+
+.params {
+  color: black
+}
+
+ul {
+  background: #FFFFFF;
+  border: 1px solid #E7E9EB;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+  font-size: 16px;
+  line-height: 46px;
+  list-style-type: none;
+  margin-top: 5px;
+  padding: 0 10px 0 10px;
+  width: 100%;
+
+  li {
+    border-bottom: 1px solid #E7E9EB;
+    padding: 2px 3px 0 3px;
+
+    &:hover {
+      background: #26B08F;
+      color: #FFFFFF;
+      cursor: pointer;
+      font-weight: 500;
+      margin: 0 -10px 0 -10px;
+      padding: 1px 10px 1px 11px;
+    }
+  }
+}
